@@ -1,0 +1,52 @@
+body{
+  padding-top: 5%;
+  background-color: white;
+}
+
+.setting-value {
+	text-align: center;
+	font-weight: bold;
+}
+
+img#start-image {
+	position: absolute;
+	left: -10000px;
+	top: -10000px;
+}
+
+#meme{
+  border:1px solid black;
+}
+
+.card{
+  border:2px solid !important;
+}
+
+.card-header{
+  border-bottom: 2px solid !important;
+}
+
+label{
+  font-weight: bold;
+}
+#download_meme{
+  background-color: orange;
+}
+#text_top{
+  background-color: grey;
+}
+#imgInp{
+  background-color: grey;
+}
+.input-group-addon{
+  background-color: sky;
+}
+.text_top_offset{
+  background-color: grey;
+}
+#text_bottom{
+  background-color: grey;
+}
+.card-body{
+  background-color: grey;
+}
