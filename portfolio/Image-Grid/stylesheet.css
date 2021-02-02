@@ -1,0 +1,28 @@
+img {
+    float: left;
+    width:  400px;
+    height: 350px;
+    object-fit: cover;
+    padding: 1.5%;
+    margin: 1%;
+}
+p {
+    font-family: 'Potta One', cursive;
+    margin-left: 3%;
+    margin-right: 8%;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 600;
+    border-bottom: 5px solid black;
+    width: auto;
+    padding-bottom: 20px;
+
+}
+button {
+    background-color: turquoise;
+}
+/*{float: left;
+    width:  280px;
+    height: 280px;
+    object-fit: cover;
+}*/
