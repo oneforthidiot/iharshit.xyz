@@ -1,0 +1,153 @@
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+
+body{
+    margin: 0;
+    background-image: url("https://cdn.pixabay.com/photo/2016/12/05/19/40/syringe-1884758_1280.jpg");
+    font-family: monospace;
+    font-size: 20px;
+  }
+
+menu{
+    width: 100vw;
+    background-color:dodgerblue;
+
+  }
+
+li{
+    list-style-type: none;
+    margin: 0;
+    font-size: 3vh;
+
+  }
+
+a{
+    text-decoration: none;
+    color: black;
+    font-family: monospace;
+    padding: 2vw;
+  }
+
+a:hover{
+    background-color: #C6E9FF;
+  }
+
+ul{
+    margin: 0 1vw;
+    padding: 0;
+    display: flex;
+  }
+
+.header {
+    overflow: hidden;
+    background-color: #f1f1f1;
+    padding: 20px 10px;
+  }
+  
+.header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+  }
+  
+.header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+.header a:hover {
+    background-color: #C6E9FF;
+    color: black;
+  }
+  
+.header a.active {
+    background-color: dodgerblue;
+    color: white;
+  }
+  
+.header-right {
+    float: right;
+  }
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    float:right;
+    font-family: monospace;
+    font-size: 20px;
+    width: 30%;
+  }
+input[type=text], select, textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+  }
+  
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+input[type=submit] {
+    background-color: dodgerblue;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+.fa:hover {
+    opacity: 0.7;
+  }
+  
+  
+  /* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
